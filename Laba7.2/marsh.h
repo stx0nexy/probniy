@@ -8,7 +8,7 @@ struct Marsh {
 };
 void SetMarsh(Marsh* marsh, int n) {
     for (int i(0); i < n; i++) {
-        cout << "Entry^:" << i + 1 << endl;
+        cout << "Entry#:" << i + 1 << endl;
         cout << "Enter the beginning of the route:" << endl;
         cin.getline(marsh[i].begin, 80);
         cout << "Enter the end of the route:" << endl;
